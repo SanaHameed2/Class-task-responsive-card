@@ -9,7 +9,7 @@ The design adapts to different screen sizes while maintaining a clean and struct
 
 🎨 style.css – The stylesheet for styling and responsiveness.
 
-🖼 assets/ – Folder containing images (Ensure this folder exists for images to load correctly).
+🖼 assets/ – Folder containing image
 
 ✨ Features
 
@@ -24,8 +24,6 @@ The design adapts to different screen sizes while maintaining a clean and struct
 🚀 How to Use
 
 📥 Download or clone the project.
-
-🔗 Ensure the style.css file is linked correctly in index.html.
 
 🌐 Open index.html in a browser to view the responsive cards.
 

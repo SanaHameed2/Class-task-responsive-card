@@ -1,4 +1,5 @@
 🎴 Responsive Cards - Class Task
+
 This project demonstrates a responsive card layout using HTML & CSS. 
 The design adapts to different screen sizes while maintaining a clean and structured appearance.
 

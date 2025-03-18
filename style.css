@@ -4,9 +4,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;    
 }
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;700&display=swap');
 
 body {
-    background-color: #f6dac6;
+    background-color: #FFEDD5;
     display: flex;
     justify-content: center;
     min-height: 600px;
@@ -23,17 +24,17 @@ body {
 }
 
 .card {
-    border: 4px double #D45220;
+    border: 4px double #F4A261;
     text-align: center;
     background: #F59C4A;
     box-shadow: 5px 5px 20px 5px rgba(33, 32, 32, 0.2);
     border-radius: 15px;
-    padding: 20px;
+    padding: 24px;
     flex: 1 1 280px;
     max-width: 320px;
     max-height: 620px;
     height: 590px; 
-    margin: 30px 0 !important;
+    margin: 40px 0 !important;
     flex-direction: column;
     justify-content: space-between; 
 }
@@ -50,35 +51,43 @@ body {
     transition: border 0.3s ease;
 }
 .card img:hover {
-    border: 5px solid red;
+    border: 5px solid #FF5733;
     transform: scale(0.98);
 }
 
 .card h3 {
-    color: #463899;
+    color: #4A148C;
     font-size: 20px;
     margin: 5px 4px 5px;
-}
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px; 
+    text-transform:uppercase; 
+    }
 .card p {
-    color: #0a0a0a;
+    color: #333;
     font-size: 16px;
     margin: 10px 15px 20px;
+    letter-spacing: 0.5px;
 }
 button {
     cursor: pointer;
-    padding: 10px 35px !important;
-    background: #463899;
+    padding: 10px 40px !important;
+    background: #5E60CE;
     color: white;
     border: none;
-    border-radius: 15px;
-    font-size: 14px;
-    font-weight: bold;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: ;
+    display: block;
     margin-bottom: 10px;
     margin-top: auto;
+    margin: 10px auto;
     transition: background 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 button:hover {
-    background: gray;
+    background: #3A0CA3;
     transform: scale(1.05);
 }

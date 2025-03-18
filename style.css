@@ -1,10 +1,11 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;    
+    font-family: "Poppins", sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;700&display=swap');
 
 body {
     background-color: #FFEDD5;
@@ -32,20 +33,18 @@ body {
     padding: 24px;
     flex: 1 1 280px;
     max-width: 320px;
-    max-height: 620px;
-    height: 590px; 
-<<<<<<< HEAD
-    margin: 40px 0 !important;
-=======
-    margin: 30px 0 !important;
+    max-height: 640px;
+    height: 640px;
     display: flex;
->>>>>>> 68c2094b7cd1a345982f4f552553d42c5869081d
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
+    margin: 30px 0;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
+
 .card img {
     align-self: center;
     border-radius: 10px;
@@ -55,8 +54,9 @@ body {
     margin: 10px 5px;
     transition: border 0.3s ease;
 }
+
 .card img:hover {
-    border: 5px solid #FF5733;
+    border: 5.2px solid #FF5733;
     transform: scale(0.98);
 }
 
@@ -64,29 +64,29 @@ body {
     color: #4A148C;
     font-size: 20px;
     margin: 5px 4px 5px;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 1px; 
-    text-transform:uppercase; 
-    }
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 .card p {
     color: #333;
     font-size: 16px;
-    margin: 15px 15px 20px;
-    letter-spacing: 0.5px;
+    margin: 4px 2px 20px;
+    letter-spacing: 0.2px;
 }
+
 button {
     cursor: pointer;
-    padding: 10px 40px !important;
+    padding: 10px 40px;
     background: #5E60CE;
     color: white;
     border: none;
     border-radius: 20px;
     font-size: 16px;
-    font-weight: ;
+    font-weight: 600;
     display: block;
-    margin-bottom: 10px;
-    margin-top: auto;
-    margin: 10px auto;
+    margin: 1px auto;
     transition: background 0.3s ease, transform 0.2s ease;
     text-transform: uppercase;
     letter-spacing: 1px;
